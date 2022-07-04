@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@700&display=swap') ,url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Fugaz+One&display=swap') ,url('https://fonts.googleapis.com/css2?family=Arima:wght@700&family=Fugaz+One&family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+
+.App {
+  text-align: center;
+
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+  #quote-box{
+    min-height:200px;
+    min-width: 500px;
+    max-width: 600px;
+    background-image: url(quote-box-background.jpg);
+    border-radius: 5%;
+    opacity: 0.9;
+  }
+
+  #text{
+    display:flex;
+    margin-right: 15px;
+    font-family: 'Arima', cursive;
+
+    #quote-logo{
+      height: 30px;
+      margin-right: 5px;
+      margin-left: 15px;
+    }
+  }
+
+  #author{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:15px;
+    font-family: 'Arima', cursive;
+  }
+
+  .button-box{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    button{
+      margin: 10px;
+      height: 45px;
+      width: 92px;
+      border:none;
+      background-color: #00acee;
+      border-radius: 10px;
+      color:white;
+      font-family: 'Fugaz One', cursive;
+    }
+
+    #logo-img {
+      height: 40px;
+      width: 42px;
+      padding:0px;
+      margin:0px;
+      border-radius: 15px;
+    }
+    #tweet-quote{
+      margin:10px;
+    }
+
+    * :hover{
+      opacity: 0.6;
+    }
+
+  } 
+   @media (max-width: 400px){
+
+    #quote-box{
+      min-height:200px;
+      min-width: 200px;
+      max-width: 300px;
+      }
+   }
+}
