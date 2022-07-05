@@ -48,7 +48,9 @@ function App() {
               <img id="logo-img"src="logo-twitter.ico" alt="twitter-logo"></img>
             </a>
           </div>
-
+          <footer>
+            <p>By TerTeixs</p>
+          </footer>
         </section>
       </header>
     </div>
